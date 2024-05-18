@@ -12,7 +12,7 @@ const Navbar = ({ isLoggedIn }) => {
         {isLoggedIn && <li><Link to="/home">Home</Link></li>}
         {isLoggedIn && <li><Link to="/add-property">Add Property</Link></li>}
         {isLoggedIn && <li><Link to="/buyer-interaction">Buyer Interaction</Link></li>}
-        {isLoggedIn && <li><Link to="/my-properties">My Properties</Link></li>} {/* Add this line for My Properties */}
+        {isLoggedIn && <li><Link to="/my-properties">My Properties</Link></li>} 
       </ul>
     </nav>
   );
