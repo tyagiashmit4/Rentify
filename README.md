@@ -19,10 +19,10 @@ bash
 cd rentify
 
 # Install dependencies for both the server and client:
-bash
-cd server
+# bash
+# cd server
 npm install
-cd ../client
+# cd ../client
 npm install
 
 # Set up environment variables:
@@ -36,13 +36,13 @@ EMAIL_PASSWORD=your_email_password
 
 # Start the development server:
 
-bash
+# bash
 cd ../server
 npm start
 
 # Start the React development server:
 
-bash
+# bash
 cd ../client
 npm start
 
